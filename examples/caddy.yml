@@ -1,12 +1,12 @@
 # Configuration example to parse and expose JSON-formatted request logs from Caddy webserver
 
-namespace: caddy
+namespace: jsonlog
 exports:
   - name: default
     path: /metrics
 log_groups:
-  - name: mysite
-    subsystem:
+  - name: caddy
+    subsystem: caddy
     files:
       - /var/log/caddy/mysite-01.access.log
       - /var/log/caddy/mysite-02.access.log
