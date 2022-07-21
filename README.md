@@ -9,7 +9,7 @@ the files.
 ## Installation & Usage
 Install using following command:
 ```shell
-go install github.com/ashwinikd/json-log-exporter@latest
+go install github.com/muety/json-log-exporter@latest
 ```
 Usage:
 ```
