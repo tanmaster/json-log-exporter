@@ -1,4 +1,4 @@
-module github.com/tanmaster/json-log-exporter
+module github.com/ashwinikd/json-log-exporter
 
 go 1.18
 
